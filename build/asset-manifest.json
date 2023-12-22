@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.42bcdc3a.css",
-    "main.js": "/static/js/main.e5afa2eb.js",
+    "main.css": "/static/css/main.2b65e049.css",
+    "main.js": "/static/js/main.c65c1492.js",
     "static/media/BakeNCake.png": "/static/media/BakeNCake.f2cc6207f1902d9dc1a2.png",
     "static/media/Aistudio.png": "/static/media/Aistudio.bf235f7298bcd6747fca.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.3fe6d0de7581fcb3b621.png",
@@ -10,11 +10,11 @@
     "static/media/SoundWizard.png": "/static/media/SoundWizard.6d201f6c4861a94f3143.png",
     "static/media/ChatApp.png": "/static/media/ChatApp.f8ba498811f5995ff5c1.png",
     "index.html": "/index.html",
-    "main.42bcdc3a.css.map": "/static/css/main.42bcdc3a.css.map",
-    "main.e5afa2eb.js.map": "/static/js/main.e5afa2eb.js.map"
+    "main.2b65e049.css.map": "/static/css/main.2b65e049.css.map",
+    "main.c65c1492.js.map": "/static/js/main.c65c1492.js.map"
   },
   "entrypoints": [
-    "static/css/main.42bcdc3a.css",
-    "static/js/main.e5afa2eb.js"
+    "static/css/main.2b65e049.css",
+    "static/js/main.c65c1492.js"
   ]
 }
