@@ -1,0 +1,75 @@
+.categoryOverFlow {
+  height: 300px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  padding: 3px 5px;
+  scroll-behavior: smooth;
+  
+
+}
+
+.categoryOverFlow::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.CategoryCard {
+  transition: 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+  background: linear-gradient(
+    90deg,
+    rgba(255, 193, 7, 1) 35%,
+    rgba(123, 115, 90, 1) 92%
+  );
+
+  height: 90px;
+  width: 175px;
+}
+.leftSideCategory{
+  /* margin: 1rem 2rem; */
+  padding: .2rem .8rem;
+}
+
+.CategoryCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.hideBackground {
+  background-image: none;
+}
+.allCategoryText {
+  font-size: medium;
+  font-weight: bold;
+}
+.topbutton {
+  display: none;
+}
+.total {
+  padding: 1px 5px;
+}
+@media only screen and (max-width: 768px) {
+  .CategoryCard {
+    height: 90px;
+    width: 140px;
+  }
+  .allCategoryText {
+    font-size: small;
+  }
+  .leftSideCategory{
+    margin: 1rem .2rem;
+    padding: 1rem .6rem;
+  }
+  .categoryOverFlow {
+    height: 500px;
+
+  }
+  .rightCategorySection {
+    display: none;
+  }
+  .topbutton {
+    display: block;
+  }
+}

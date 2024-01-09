@@ -1,0 +1,34 @@
+.popularCard {
+  transition: 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  height: 90px;
+  width: 200px;
+}
+.homepopularcategories {
+  gap: 1em;
+}
+.popularText {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.popularCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .popularCard {
+    height: 70px;
+    width: 110px;
+  }
+  .popularText {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .homepopularcategories {
+    gap: 0.5em;
+  }
+}

@@ -1,0 +1,54 @@
+.active {
+  color: #ffc107;
+}
+
+.searchInput:focus {
+  outline: none;
+  /* transform: scale(1.1); */
+}
+.searchInput:hover {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.searchInput {
+  font-size: medium;
+  transition: 0.7s;
+  border: none;
+}
+.fieldset {
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.header {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.mobileContact{
+  display:none;
+}
+.mobileLogo{
+  display: none;
+}
+
+.B,
+.G {
+  color: #ffc107;
+
+  font-size: larger;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktopLogo {
+    /* display: none; */
+    font-size: 14px;
+  }
+  .mobileLogo{
+    display: block;
+  }
+  .mobileContact{
+    display: block;
+  }
+  .desktopContact{
+    display: none;
+  }
+}

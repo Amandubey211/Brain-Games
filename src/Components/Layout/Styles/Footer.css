@@ -1,0 +1,67 @@
+.hoverlink {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.hoverlink:hover {
+  transform: scale(1.1);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.footerImage {
+  height: 180px;
+}
+.links {
+  font-size: 35px;
+}
+.leftFooterSectionInfo {
+  padding: 12px 20px;
+  justify-content: space-evenly;
+}
+.leftFooterSection {
+  /* padding: 1px 80px; */
+  justify-content: center;
+  gap: 1rem;
+}
+.footerRight {
+  height: 180px;
+  overflow: scroll;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.footerRight::-webkit-scrollbar {
+  display: none;
+}
+.leftFooterMobileSection{
+  display: none;
+}
+.leftFooterDeskstopSection{
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .footerImage {
+    height: 150px;
+  }
+  .links {
+    font-size: 30px;
+  }
+  .leftFooterSectionInfo {
+    padding: 9px 12px;
+  }
+  .leftFooterSection {
+    padding: 1px 10px;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+  .leftFooterMobileSection{
+    display: block;
+  }
+  .leftFooterDeskstopSection{
+    display: none;
+  }
+  
+  
+
+}
