@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.073d3989.css",
-    "main.js": "/static/js/main.fb57e1f0.js",
+    "main.js": "/static/js/main.b69e92b2.js",
     "static/media/BakeNCake.png": "/static/media/BakeNCake.f2cc6207f1902d9dc1a2.png",
     "static/media/Aistudio.png": "/static/media/Aistudio.bf235f7298bcd6747fca.png",
+    "static/media/NetFlixGPT.png": "/static/media/NetFlixGPT.dfa9f85ae6b9312a922d.png",
+    "static/media/E-shop.png": "/static/media/E-shop.a5e8d7623156a30a153b.png",
     "static/media/Portfolio.png": "/static/media/Portfolio.3fe6d0de7581fcb3b621.png",
     "static/media/Dashboard.png": "/static/media/Dashboard.31e27abb16cffb7da939.png",
     "static/media/BrainGames.png": "/static/media/BrainGames.0885d4a11da975d1e318.png",
+    "static/media/JokeJive.png": "/static/media/JokeJive.283d98a5e5dd1d2925c3.png",
     "static/media/SoundWizard.png": "/static/media/SoundWizard.6d201f6c4861a94f3143.png",
     "static/media/ChatApp.png": "/static/media/ChatApp.f8ba498811f5995ff5c1.png",
     "index.html": "/index.html",
     "main.073d3989.css.map": "/static/css/main.073d3989.css.map",
-    "main.fb57e1f0.js.map": "/static/js/main.fb57e1f0.js.map"
+    "main.b69e92b2.js.map": "/static/js/main.b69e92b2.js.map"
   },
   "entrypoints": [
     "static/css/main.073d3989.css",
-    "static/js/main.fb57e1f0.js"
+    "static/js/main.b69e92b2.js"
   ]
 }
